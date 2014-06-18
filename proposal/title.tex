@@ -1,40 +1,44 @@
-
 \begin{titlepage}
-\begin{center}
+  \begin{tikzpicture}
+    \noindent
+    \draw[red] (-2,0) rectangle (10,1);
+  \end{tikzpicture}
 
-% Upper part of the page. The '~' is needed because \\
-% only works if a paragraph has started.
-%\includegraphics[width=0.15\textwidth]{./logo}~\\[1cm]
+  \begin{center}
 
-\textsc{\LARGE University of Beer}\\[1.5cm]
+    % Upper part of the page. The '~' is needed because \\
+    % only works if a paragraph has started.
+    %\includegraphics[width=0.15\textwidth]{./logo}~\\[1cm]
 
-\textsc{\Large Final year project}\\[0.5cm]
+    \textsc{\LARGE University of Beer}\\[1.5cm]
 
-% Title
-\HRule \\[0.4cm]
-{ \huge \bfseries Lager brewing techniques \\[0.4cm] }
+    \textsc{\Large Final year project}\\[0.5cm]
 
-\HRule \\[1.5cm]
+    % Title
+    \HRule \\[0.4cm]
+           { \huge \bfseries Lager brewing techniques \\[0.4cm] }
 
-% Author and supervisor
-\begin{minipage}{0.4\textwidth}
-\begin{flushleft} \large
-\emph{Author:}\\
-John \textsc{Smith}
-\end{flushleft}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
-\emph{Supervisor:} \\
-Dr.~Mark \textsc{Brown}
-\end{flushright}
-\end{minipage}
+           \HRule \\[1.5cm]
 
-\vfill
+           % Author and supervisor
+           \begin{minipage}{0.4\textwidth}
+             \begin{flushleft} \large
+               \emph{Author:}\\
+               John \textsc{Smith}
+             \end{flushleft}
+           \end{minipage}
+           \begin{minipage}{0.4\textwidth}
+             \begin{flushright} \large
+               \emph{Supervisor:} \\
+               Dr.~Mark \textsc{Brown}
+             \end{flushright}
+           \end{minipage}
 
-% Bottom of the page
-{\large \today}
+           \vfill
 
-\end{center}
+           % Bottom of the page
+           {\large \today}
+
+  \end{center}
 
 \end{titlepage}
