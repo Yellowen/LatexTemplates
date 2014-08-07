@@ -1,0 +1,35 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[a4paper]{geometry}
+\pagestyle{empty}
+\usepackage{tikz}
+\usepackage{fix-cm}
+\usepackage[defaultsans]{droidsans}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+
+
+\newcommand{\Title}{Software}
+\newcommand{\SubTitle}{Proposal}
+
+
+
+
+
+\begin{document}
+
+\begin{tikzpicture}[remember picture,overlay,shift={(current page.center)}]
+% draw image
+\node[inner sep=0] at (current page.center)
+{\includegraphics[width=\paperwidth,height=\paperheight]{proposal/cover.png}};
+\node[align=center] at (0,1.5) {\fontsize{50}{50}\selectfont \Title};
+\node[align=center] at (current page.center) {\Huge \SubTitle};
+\end{tikzpicture}
+
+\newpage
+\tableofcontents
+\newpage
+
+
+\section*{Introduction}
+
+\end{document}
