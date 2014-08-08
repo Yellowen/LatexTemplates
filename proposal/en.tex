@@ -4,15 +4,17 @@
 \usepackage{tikz}
 \usepackage{fix-cm}
 \usepackage[defaultsans]{droidsans}
+\usepackage{setspace}
 \renewcommand*\familydefault{\sfdefault}
 \usepackage[T1]{fontenc}
 
 
 \newcommand{\Title}{Software}
 \newcommand{\SubTitle}{Proposal}
-
-
-
+\newcommand{\PreparedFor}{MR X}
+\newcommand{\PreparedB}{MR Y}
+\newcommand{\ProposalFor}{a product management web application}
+\onehalfspacing
 
 
 \begin{document}
@@ -21,15 +23,50 @@
 % draw image
 \node[inner sep=0] at (current page.center)
 {\includegraphics[width=\paperwidth,height=\paperheight]{proposal/cover.png}};
-\node[align=center] at (0,1.5) {\fontsize{50}{50}\selectfont \Title};
-\node[align=center] at (current page.center) {\Huge \SubTitle};
+\node[align=center,text=white] at (0,1.5) {\fontsize{50}{50}\selectfont \Title};
+\node[align=center,text=white] at (current page.center) {\Huge \SubTitle};
 \end{tikzpicture}
 
 \newpage
-\tableofcontents
-\newpage
-
 
 \section*{Introduction}
+\textbf{Yellowen} (hereafter known as the Provider) is pleased to submit a proposal
+for {\PreparedFor} hereafter known as the Client) software development project
+for {\ProposalFor} . This proposal describes the technologies,
+services, terms, and schedule for the above project.
 
+\section*{About Yellowen}
+Since 2010, we've worked with start-ups and companies, building, designing and planning applications,
+sites and business concepts on the web and desktop. We have over 8 years in the software development field and a
+long list of satisfied customers. We will be happy to provide additional references upon request.
+
+\section*{Services and Technology}
+The following section describes the services provided as part of the IT
+Consultancy:
+
+Provider use Agile software development method to produce this software
+which means provider will analyze the whole software once at phase zero
+and hand a technical proposal to client to explain the complete schema of
+software and phases which is needed to finish the software. At each phase
+provider will use above cycle to complete the goals of the phase and satisfy
+the client.
+
+\section*{Deliverables and Testing}
+The Provider will deliver the items determined during the Appraisal and
+Planning phase of the engagement. The deliverables list will be created and
+added as an addendum to this proposal or to the Work Agreement created
+at the acceptance of this proposal.
+
+
+\subsection*{Verification}
+\begin{itemize}
+  \item {"Verification" typically involves reviews and meetings to evaluate
+    documents, plans, code, requirements, and specifications.}
+  \item{This can be done with checklists, issues lists, walkthroughs, and
+    inspection meetings.}
+  \item{Client will have access to a development time prototype, so he can give
+    his/her feedbacks to developments team during development cycle.}
+\end{itemize}
+
+\subsection*{Validation}
 \end{document}
